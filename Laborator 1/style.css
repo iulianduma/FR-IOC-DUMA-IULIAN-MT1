@@ -1,0 +1,100 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #baba;
+    color:#333;
+    margin: 0;
+    padding: 0; 
+
+}
+header {
+background-color: #4d4d4d;
+color: white;
+text-align:center;
+padding: 20px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+    background-color: #333;
+    overflow: hidden;
+
+}
+nav a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+}
+nav a:hover{
+    
+    background-color: beige;
+    color:black;
+}
+.principal{
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+margin: 20px;
+background-color: white;
+border-radius: 5px;
+display: flex;
+
+}
+.principal h4{
+     font-size: 25px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.principal p{
+    font-size: 18px;
+    color: red;
+}
+
+.principal img{
+    max-width: 150px;
+
+height: auto;
+margin-right: 10%;
+}
+button{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding:  10px 20px;
+    cursor:pointer; 
+    border-radius: 20%;
+    margin-top: 10px;
+}
+button:hover{
+background-color: rgb(48,48,220);
+color: white;
+
+}
+footer{
+text-align: center;
+padding: 10px 0px;
+color: white;
+background-color: #333;
+
+}
+#liste{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+padding: 10px;
+text-align: center;
+border: 2px solid rgb(95, 95,95);
+
+}
+th{
+    background-color: rgb(168,174,174);
+    color: black;
+
+}

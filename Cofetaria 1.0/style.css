@@ -1,0 +1,328 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff0f0;
+}
+
+header{
+/*background-color: rgb(211,112,112, 0.959);*/
+color: white;
+
+padding: 2% 0;
+width: 100%;
+position: absolute;
+
+
+}
+
+.valuri {
+position: absolute;
+top: 0;
+left:0;
+width: 100%;
+overflow: hidden;
+line-height: 0;
+
+}
+
+.valuri svg{
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+}
+
+header h1{
+
+    margin-bottom: 12px;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #c05ba5;
+    
+   
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-decoration: wavy;
+}
+nav ul li{
+    margin: 0 10px;
+    text-align: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+nav ul li:hover{
+    text-decoration: underline;
+    text-align: center;
+    text-shadow: 0 0 3px #ff00cc, 0 0 5px #c05ba5;
+ 
+}
+main{
+    padding: 20px;
+    padding-top: 10%;
+
+    
+}
+#introducere{
+    margin-top: 20px;
+    display:flex ;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    color: #863d69;
+    border-radius: 20px;
+    
+    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+
+.image{
+    flex: 0.3;
+}
+
+/*  Imaginea cofetariei se mareste la trecerea cursorului peste*/
+.image:hover{
+    flex:1;
+}
+
+
+.image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.text{
+    flex:1;
+    padding: 20px;
+}
+
+text h2{
+    font-size: 26px;
+    color: #863d69;
+    margin-bottom: 10px;
+
+}
+
+text p{
+    font-size: 1.1rem;
+    grid-template-columns: repet(auto-fit, minimax(300px, 1fr));
+    color: #3a3a3a;
+    line-height: 1.5;
+
+}
+@media(max-width:900px){
+    .text p{
+        font-size: 0.4rem;
+        line-height: 1.5;
+    }
+}
+.sortimente{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin-top: 20px;
+    gap: 20px;
+
+}
+.prajituri{
+
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.videoclip iframe{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.prajituri img{
+width: 100%;
+height: 50%;
+border-radius: 10px;
+
+}
+.prajituri h2{
+margin: 30px 0 20px;
+font-size: 30px;
+color:#7e0261;
+
+}
+.prajituri p{
+    color:#863d69;
+    font-size: 1;
+    line-height: 1.5;
+}
+
+
+
+#alergeni{
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+#alergeni h2{
+    text-align: center;
+    font-size: 30px;
+    color:#863d69;
+    margin: 20px 0;
+}
+#alergeni table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#alergeni table, th, td{
+    border: 1px solid #afadad;
+    }
+#alergeni th, td{
+padding: 15px;
+text-align: center;
+
+}
+#alergeni th{
+background-color: #863d69;
+color: rgb(255, 255, 255);
+font-weight: 800;
+}
+
+
+#alergeni_patiserie{
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+#alergeni_patiserie h2{
+    text-align: center;
+    font-size: 30px;
+    color:#863d69;
+    margin: 20px 0;
+}
+#alergeni_patiserie table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#alergeni_patiserie table, th, td{
+    border: 1px solid #afadad;
+    }
+#alergeni_patiserie th, td{
+padding: 15px;
+text-align: center;
+
+}
+#alergeni_patiserie th{
+background-color: #863d69;
+color: rgb(255, 255, 255);
+font-weight: 800;
+}
+
+.imag{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin-top: 20px;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.imag_c{
+
+    
+    text-align: center;
+    width: 100%;
+    /* border-radius: 10px; */
+
+
+}
+.imag_c img{
+ 
+    border-radius: 10px;
+    
+    } 
+
+  
+#portofoliu{
+    margin: 20px 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+#portofoliu h2{
+    text-align: center;
+    font-size: 30px;
+    color:#863d69;
+}
+
+#contact{
+    margin: 20px 0;
+    background-color: white;
+    padding: 20px;
+    /* border-radius: 20px; */
+
+}
+#contact p{
+    text-align: center;
+    font-size: 20px;
+    color:#863d69;
+}
+#contact a{
+    text-decoration: none;
+    color:#863d69;
+}
+footer{
+    background-color: #3a3a3a;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6 px;
+    text-align: center;
+    padding: 3px 0;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a{
+    
+    color:white;
+    text-decoration: none;
+    
+}
+
+.table{
+background-color: white;
+padding: 20px;
+margin-top: 20px;
+border-radius: 20px;
+text-align: center;
+
+}
+
+
+
